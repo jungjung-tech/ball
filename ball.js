@@ -8,6 +8,7 @@ cc.Class({
     onLoad() {
         // 공의 초기 속도 설정
         this.direction = cc.v2(Math.random() > 0.5 ? 1 : -1, Math.random() > 0.5 ? 1 : -1).normalize();
+        seed_string = "M1LFMTApAyJxAUA78CUNAyDTISNL5AZfAlIaEDNTdwUUVQOVgxWH8yCigxINIlHa4RCT4TFsgyNokyDnAwQBwDIp8ANVhRDRpkGLhFCDcSUkwiAVhQEB4HGlgyLUFyIalwLbAhT3ABWzwiAsMSUM4TLUIQJFsBI4glJgAxSK4lPxk1DRllFRE1FA9yaEciEr8wXNIjWGggFRNSL9AyKCQDKH4wJI0GAx8FEPwVWy8wVTsyYeFiJKcVBCkiOXQxByhhHqAzDhgAOKIBA7EkIcIwMEgBKkkCCrUDQUESHEIxITMxJpgBILdCCDIiNZhCKvkTF5IHCOgxL541G-8yUHARTW0yDahyLtMDBbcSJA1xPG4iI2gFGZIjINI2Xtk1D24RCvwyFVEQE-ExLtgVJi0TEsAzDd1VBZdlEBA1XqwQJm0mAdpxFMoTWiwgNAsyYhMgIMgyOsgiULsiB"; // random seed string
     },
 
     update(dt) {
